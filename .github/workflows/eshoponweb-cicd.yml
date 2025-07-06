@@ -1,9 +1,8 @@
 name: eShopOnWeb Build and Test
 
 #Triggers (uncomment line below to use it)
-#on: [delete, workflow_dispatch]
 on:
-  push:
+  push:
     branches:
       - main
   workflow_dispatch:
