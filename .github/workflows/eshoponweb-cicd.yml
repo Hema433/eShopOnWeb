@@ -5,11 +5,11 @@ on: [delete, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-eshoponweb-hema
+  RESOURCE_GROUP: rg-eshoponweb-hema
   LOCATION: westeurope
-  TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: 4e8f571d-3d5b-4246-bcf5-6fc8358c4f6a
-  WEBAPP-NAME: eshoponweb-webapp-Hema
+  TEMPLATE_FILE: infra/webapp.bicep
+  SUBSCRIPTION_ID: 4e8f571d-3d5b-4246-bcf5-6fc8358c4f6a
+  WEBAPP_NAME: eshoponweb-webapp-Hema
 
 
 jobs:
