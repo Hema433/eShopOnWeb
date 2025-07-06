@@ -80,7 +80,7 @@ jobs:
     - name: Azure Login
       uses: azure/login@v2
       with:
-          creds: >
+          creds: |
             {
               "clientId": "${{ secrets.AZURE_CLIENTID }}",
               "clientSecret": "${{ secrets.CLIENTSECRET }}",
